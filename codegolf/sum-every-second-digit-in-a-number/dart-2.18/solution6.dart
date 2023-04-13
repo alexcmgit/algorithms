@@ -1,0 +1,1 @@
+f(n,[i=1])=>[for(;i<(n='$n').length;i+=2)int.parse(n[i])].reduce((v,e)=>v+e);

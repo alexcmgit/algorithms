@@ -1,0 +1,8 @@
+calc 1/2 + 3/2
+calc 1/2 - 3/2
+calc 1/2 * 3/2
+calc 1/2 / 3/2
+simplify 100/100
+simplify 100/2
+simplify 49/7
+simplify 45/10

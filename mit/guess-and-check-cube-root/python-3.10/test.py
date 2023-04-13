@@ -1,0 +1,41 @@
+import os
+import unittest
+
+ROOT = os.path.dirname(os.path.realpath(__file__))
+
+def solutions():
+    modules = []
+    for file in os.listdir(ROOT):
+        if file.startswith('solution') and file.endswith('.py'):
+            id = file[len('solution'):-len('.py')]
+            modules.append((file[:-len('.py')], int(id) if len(id) > 0 else 1))
+    return sorted(modules, key=lambda e: e[1])
+
+def stdin():
+    with open(os.path.realpath(os.path.join(ROOT, '..', 'stdin.txt')), 'r') as f:
+        return filter(lambda e: len(e) > 0, map(lambda e: e.strip(), f.readlines()))
+
+def stdout():
+    with open(os.path.realpath(os.path.join(ROOT, '..', 'stdout.txt')), 'r') as f:
+        return filter(lambda e: len(e) > 0, map(lambda e: e.strip(), f.readlines()))
+
+class SolutionTest(unittest.TestCase):
+    def setUp(self) -> None:
+        self.solutions = map(lambda e: (e[1], __import__(e[0]).guess_cube_root_of, __import__(e[0]).PRECISION), solutions())
+        self.inputs = list(map(float, stdin()))
+        self.outputs = list(map(float, stdout()))
+
+    def test_solutions(self):
+        for id, solution, precision in self.solutions:
+            self._assert_solution_expected_output(solution, f'{id}', precision)
+
+    def _assert_solution_expected_output(self, solution, id: str, precision: int):
+        assert callable(solution)
+
+        for i, input in enumerate(self.inputs):
+            output = solution(input, precision)
+            expected = self.outputs[i]
+            self.assertTrue(abs(expected - output) <= 1 / 10 ** precision, f'Expected {expected} but got {output} when calling input {input} on solution {id}.')
+
+if __name__ == '__main__':
+    unittest.main()

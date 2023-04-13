@@ -1,0 +1,1 @@
+r(s,[j=0,v='aeiouAEIOU',t,i=0])=>[for(var c=(l)=>v[(l?0:5)+j++%5];i<s.length;i++)if(v.contains(t=s[i]))c(t.codeUnitAt(0)>96)else t].join();

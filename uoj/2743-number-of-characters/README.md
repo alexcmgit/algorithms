@@ -1,0 +1,100 @@
+<p><a href="https://www.beecrowd.com.br/repository/UOJ_2743_en.html">beecrowd.com.br/repository/UOJ_2743_en.html</a></p><hr>
+                          <div>
+                            <span>URI Online <strong>SQL</strong> | 2743 </span>
+                            <h1>Number of Characters</h1>
+                            <div>
+                              <p>Marcos Lima <img src="https://resources.beecrowd.com.br/gallery/images/flags/br.gif" alt="BR"> Brasil</p>
+                            </div>
+                            <strong>Timelimit: 1</strong>
+                          </div>
+                          <div>
+                          <div>
+                            <p>The Global Organization of Characters at People’s Names (GOCPN) made a census to figure how many characters people have in theirs names.</p>
+                            <p>To help OMCNP, you must show the number of characters of each name sorted by decreasing number of characters.</p>
+                          </div>
+                          <div>
+                          <h2>Schema</h2>
+                          <div>
+                          <table>
+                          <caption>people</caption>
+                          <tbody><tr>
+                          <td><strong>Column</strong></td>
+                          <td><strong>Type</strong></td>
+                        </tr>
+                        <tr>
+                          <td>id (PK)</td>
+                          <td>integer</td>
+                        </tr>
+                        <tr>
+                          <td>name</td>
+                          <td>varchar</td>
+                        </tr>
+                      </tbody></table>
+                    </div>
+                  </div>
+                  <div>
+                  <h2>Tables</h2>
+                  <div>
+                  <table>
+                  <caption>people</caption>
+                  <tbody><tr>
+                  <td><strong>id</strong></td>
+                  <td><strong>name</strong></td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>Karen</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Manuel</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Ygor</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Valentine</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>Jo</td>
+                </tr>
+              </tbody></table>
+            </div>
+          </div>
+          <div>
+          <h2>Output Sample</h2>
+          <div>
+          <table>
+          <tbody><tr>
+          <td><strong>name</strong></td>
+          <td><strong>length<strong></strong></strong></td>
+        </tr>
+        <tr>
+          <td>Valentine</td>
+          <td>9</td>
+        </tr>
+        <tr>
+          <td>Manuel</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>Karen</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>Ygor</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>Jo</td>
+          <td>2</td>
+        </tr>
+      </tbody></table>
+    </div>
+  </div>
+  <p>
+  </p>
+</div>

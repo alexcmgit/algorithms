@@ -1,0 +1,15 @@
+structure: na
+complexity: O(n)
+complexity_expression: >-
+  O(n) + O(n)
+  O(2n)
+  O(n)
+aux_space: O(1)
+space: O(n)
+description: We sort all points by distance and take the first K elements, as required by the closure statement.
+links:
+  - https://stackoverflow.com/questions/52964383/what-kind-of-sorting-does-kotlin-use-by-default.
+  - https://en.wikipedia.org/wiki/Timsort.
+  - https://stackoverflow.com/questions/20917617/whats-the-difference-of-dual-pivot-quick-sort-and-quick-sort.
+  - https://www.geeksforgeeks.org/dual-pivot-quicksort/.
+  - https://stackoverflow.com/questions/29000356/runtime-of-arrays-copyofrange.

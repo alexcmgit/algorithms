@@ -1,0 +1,9 @@
+structure: na
+complexity: O(n^2)
+complexity_expression: >-
+  O(n) * O(n)
+  O(n^2)
+aux_space: O(1)
+space: O(n)
+description: Naive/brute force solution quadratic-unstable-inconsistent-brute-force. Unstable solution. Sometimes it works, sometimes don't.
+links: []

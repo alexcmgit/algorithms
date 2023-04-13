@@ -1,0 +1,8 @@
+structure: todo
+complexity: todo
+complexity_expression: >-
+  todo
+aux_space: todo
+space: todo
+description: Constant time solution using nested if-else statements.
+links: []

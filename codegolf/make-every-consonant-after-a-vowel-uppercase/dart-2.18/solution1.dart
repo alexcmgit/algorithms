@@ -1,0 +1,1 @@
+f(s,[v='aeiou'])=>s.split('').asMap().entries.map((e)=>e.key-1<0||!v.contains(s[e.key-1])||v.contains(e.value)?e.value:e.value.toUpperCase()).join();

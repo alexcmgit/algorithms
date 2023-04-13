@@ -1,0 +1,1 @@
+f(n,[t=int.parse])=>(n='$n'.padRight(2,'0')).length==2?t(n[1]):t(n[1])+f(t(n.substring(2)));

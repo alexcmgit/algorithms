@@ -1,0 +1,13 @@
+structure: na
+complexity: O(n^2)
+complexity_expression: >-
+  O(1) + O(1) + O(n) * (O(1) + O(n) * (O(1) + O(1) + O(1) + O(1)) + O(1) + O(1)) + O(n log n) + O(1) + O(1) + O(1)
+  O(n) * O(n) + O(n log n)
+  O(n) * O(n) + O(n log n)
+  O(n^2) + O(n log n)
+  O(n^2)
+aux_space: O(n)
+space: O(n)
+description: Naive solution, we try all possibilities.
+links:
+  - https://stackoverflow.com/questions/57763205/what-is-array-prototype-sort-time-complexity.

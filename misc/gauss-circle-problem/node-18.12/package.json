@@ -1,0 +1,13 @@
+{
+  "name": "solution",
+  "version": "0.1.0",
+  "main": "solution.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "bignumber.js": "^9.1.0"
+  },
+  "engines": {
+    "node": ">=18.12.0 <19.0.0"
+  }
+}
