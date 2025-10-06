@@ -11,3 +11,5 @@ Use a pointer `y` to track the current row index of the current char.
 Write the current char at the string buffer of the current row index.
 
 Merge/fold all string buffers and return it.
+
+<img width="660" height="113" alt="image" src="https://github.com/user-attachments/assets/51461644-d26b-4180-8d7a-63480b89efca" />
