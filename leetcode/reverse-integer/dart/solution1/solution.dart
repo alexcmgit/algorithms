@@ -1,5 +1,6 @@
-// Warning: since Dart uses 64-bit signed integers, this solution is not guaranteed to work in all languages.
-// TODO: Impl. using a language that has built-in 32-bit signed integer representation.
+// Note: This algorithm simulates 32-bit overflow checks, but Dart uses 64-bit ints,
+// so it doesn't actually enforce 32-bit runtime limits.
+// TODO: Reimplement in a language with native 32-bit integer support for accurate runtime behavior.
 class Solution {
   int reverse(int x) {
     if (x == 0) return 0;
@@ -24,7 +25,7 @@ class Solution {
       r = r + d;
 
       if (n > 9) {
-        // 'If we multiply the current [r]esult by 10, will it overflow?'
+        // If we multiply the current [r]esult by 10, will it overflow?
         //
         // Can also be implemented as:
         // if (r != 0 && (m - r) / r < 9) {
