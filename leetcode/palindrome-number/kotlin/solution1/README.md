@@ -4,4 +4,4 @@ time_complexity: O(1)
 space_complexity: O(1)
 ---
 
-<img width="661" height="121" alt="image" src="https://github.com/user-attachments/assets/68f0bd01-a8c1-41cd-ad7c-52e8a7fb71a3" />
+<img width="660" height="120" alt="image" src="https://github.com/user-attachments/assets/c28e71a4-5acc-4512-988f-36c16a065767" />
