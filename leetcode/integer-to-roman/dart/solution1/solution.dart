@@ -1,5 +1,5 @@
 class Solution {
-  String intToRoman(int n, [String c = 'I']) {
+  String intToRoman(int n) {
     int u = /* ( */ n /* ~/ 1) */ % 10;
     int d = (n ~/ 10) % 10;
     int c = (n ~/ 100) % 10;
