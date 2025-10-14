@@ -1,25 +1,32 @@
 class Solution {
-  void rotate(List<int> nums, int k, {int? index, int? prevValue}) {
-    k = k % nums.length;
-    if (k == 0) return;
+  void rotate(List<int> nums, int k) => nums..rotateBy(k);
+}
+
+extension<E> on List<E> {
+  void rotateBy(int shift) {
+    if (isEmpty || length == 1) return;
+
+    shift = shift % length;
+
+    if (shift == 0) return;
 
     int count = 0;
     int start = 0;
 
     do {
       int current = start;
-      int prev = nums[start];
+      E prev = this[start];
 
       do {
-        int next = (current + k) % nums.length;
-        int temp = nums[next];
-        nums[next] = prev;
+        int next = (current + shift) % length;
+        E temp = this[next];
+        this[next] = prev;
         prev = temp;
         current = next;
         count++;
       } while (start != current);
 
       start = start + 1;
-    } while (count < nums.length);
+    } while (count < length);
   }
 }
