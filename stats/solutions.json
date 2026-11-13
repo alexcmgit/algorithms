@@ -1,0 +1,459 @@
+{
+  "schema_version": 1,
+  "totals": {
+    "problems": 416,
+    "solution_files": 557,
+    "languages": 13,
+    "collections": 12,
+    "nonblank_lines": 9735,
+    "multilingual_problems": 66
+  },
+  "latest_source_change": {
+    "commit": "ed422c5dc7b8301380033f0cbab3242bafbd61c8",
+    "date": "2026-11-13T15:13:31-03:00"
+  },
+  "languages": [
+    {
+      "name": "Dart",
+      "solution_files": 200,
+      "problems": 164,
+      "nonblank_lines": 3859
+    },
+    {
+      "name": "JavaScript",
+      "solution_files": 181,
+      "problems": 178,
+      "nonblank_lines": 2507
+    },
+    {
+      "name": "Python",
+      "solution_files": 55,
+      "problems": 51,
+      "nonblank_lines": 1529
+    },
+    {
+      "name": "C++",
+      "solution_files": 39,
+      "problems": 38,
+      "nonblank_lines": 658
+    },
+    {
+      "name": "SQL",
+      "solution_files": 34,
+      "problems": 34,
+      "nonblank_lines": 175
+    },
+    {
+      "name": "Kotlin",
+      "solution_files": 23,
+      "problems": 18,
+      "nonblank_lines": 536
+    },
+    {
+      "name": "TypeScript",
+      "solution_files": 10,
+      "problems": 9,
+      "nonblank_lines": 304
+    },
+    {
+      "name": "Go",
+      "solution_files": 5,
+      "problems": 4,
+      "nonblank_lines": 70
+    },
+    {
+      "name": "C",
+      "solution_files": 3,
+      "problems": 2,
+      "nonblank_lines": 30
+    },
+    {
+      "name": "C#",
+      "solution_files": 3,
+      "problems": 3,
+      "nonblank_lines": 22
+    },
+    {
+      "name": "Java",
+      "solution_files": 2,
+      "problems": 2,
+      "nonblank_lines": 20
+    },
+    {
+      "name": "Julia",
+      "solution_files": 1,
+      "problems": 1,
+      "nonblank_lines": 21
+    },
+    {
+      "name": "Racket",
+      "solution_files": 1,
+      "problems": 1,
+      "nonblank_lines": 4
+    }
+  ],
+  "collections": [
+    {
+      "key": "beecrowd",
+      "name": "BeeCrowd / URI",
+      "paths": [
+        "beecrowd",
+        "uoj"
+      ],
+      "solution_files": 404,
+      "problems": 314,
+      "languages": 10
+    },
+    {
+      "key": "hackerrank",
+      "name": "HackerRank",
+      "paths": [
+        "hackerrank"
+      ],
+      "solution_files": 32,
+      "problems": 32,
+      "languages": 2
+    },
+    {
+      "key": "leetcode",
+      "name": "LeetCode",
+      "paths": [
+        "leetcode"
+      ],
+      "solution_files": 52,
+      "problems": 32,
+      "languages": 5
+    },
+    {
+      "key": "mit",
+      "name": "MIT",
+      "paths": [
+        "mit"
+      ],
+      "solution_files": 25,
+      "problems": 18,
+      "languages": 2
+    },
+    {
+      "key": "codegolf",
+      "name": "Code Golf",
+      "paths": [
+        "codegolf"
+      ],
+      "solution_files": 17,
+      "problems": 6,
+      "languages": 2
+    },
+    {
+      "key": "codewars",
+      "name": "Codewars",
+      "paths": [
+        "codewars"
+      ],
+      "solution_files": 3,
+      "problems": 3,
+      "languages": 2
+    },
+    {
+      "key": "ctfwgoogle",
+      "name": "Google CTF",
+      "paths": [
+        "ctfwgoogle"
+      ],
+      "solution_files": 3,
+      "problems": 3,
+      "languages": 2
+    },
+    {
+      "key": "misc",
+      "name": "Miscellaneous",
+      "paths": [
+        "misc"
+      ],
+      "solution_files": 9,
+      "problems": 3,
+      "languages": 3
+    },
+    {
+      "key": "euler",
+      "name": "Project Euler",
+      "paths": [
+        "euler"
+      ],
+      "solution_files": 9,
+      "problems": 2,
+      "languages": 4
+    },
+    {
+      "key": "coderbyte",
+      "name": "Coderbyte",
+      "paths": [
+        "coderbyte"
+      ],
+      "solution_files": 1,
+      "problems": 1,
+      "languages": 1
+    },
+    {
+      "key": "triage",
+      "name": "Triage / work in progress",
+      "paths": [
+        "triage"
+      ],
+      "solution_files": 1,
+      "problems": 1,
+      "languages": 1
+    },
+    {
+      "key": "ubc",
+      "name": "UBC",
+      "paths": [
+        "ubc"
+      ],
+      "solution_files": 1,
+      "problems": 1,
+      "languages": 1
+    }
+  ],
+  "highlights": {
+    "most_languages": [
+      {
+        "key": "beecrowd/1001",
+        "title": "1001 Extremely Basic",
+        "collection": "beecrowd",
+        "languages": [
+          "C",
+          "C#",
+          "C++",
+          "Dart",
+          "Go",
+          "Java",
+          "JavaScript",
+          "Kotlin",
+          "Python"
+        ],
+        "solution_files": 13,
+        "path": "beecrowd/c#/beginner/1001-extremely-basic.cs",
+        "updated": {
+          "commit": "67f42c06ff6b63445048ff569bfb387cbd2beb01",
+          "date": "2023-04-13T07:35:50-03:00"
+        }
+      },
+      {
+        "key": "beecrowd/2160",
+        "title": "2160 Name At Form",
+        "collection": "beecrowd",
+        "languages": [
+          "C#",
+          "C++",
+          "Dart",
+          "Java",
+          "JavaScript"
+        ],
+        "solution_files": 6,
+        "path": "beecrowd/c#/beginner/2160-name-at-form.cs",
+        "updated": {
+          "commit": "67f42c06ff6b63445048ff569bfb387cbd2beb01",
+          "date": "2023-04-13T07:35:50-03:00"
+        }
+      },
+      {
+        "key": "beecrowd/1000",
+        "title": "1000 Hello World",
+        "collection": "beecrowd",
+        "languages": [
+          "C#",
+          "C++",
+          "Dart",
+          "JavaScript"
+        ],
+        "solution_files": 8,
+        "path": "beecrowd/c#/beginner/1000-hello-world.cs",
+        "updated": {
+          "commit": "67f42c06ff6b63445048ff569bfb387cbd2beb01",
+          "date": "2023-04-13T07:35:50-03:00"
+        }
+      },
+      {
+        "key": "euler/1-multiples-of-3-and-5",
+        "title": "1 Multiples Of 3 And 5",
+        "collection": "euler",
+        "languages": [
+          "Dart",
+          "Go",
+          "Kotlin",
+          "Python"
+        ],
+        "solution_files": 8,
+        "path": "euler/1-multiples-of-3-and-5/dart-2.18/solution1.dart",
+        "updated": {
+          "commit": "67f42c06ff6b63445048ff569bfb387cbd2beb01",
+          "date": "2023-04-13T07:35:50-03:00"
+        }
+      },
+      {
+        "key": "beecrowd/1002",
+        "title": "1002 Area Of A Circle",
+        "collection": "beecrowd",
+        "languages": [
+          "C",
+          "C++",
+          "Go",
+          "JavaScript"
+        ],
+        "solution_files": 4,
+        "path": "beecrowd/c++/beginner/1002-area-of-a-circle.cpp",
+        "updated": {
+          "commit": "67f42c06ff6b63445048ff569bfb387cbd2beb01",
+          "date": "2023-04-13T07:35:50-03:00"
+        }
+      }
+    ],
+    "recent": [
+      {
+        "key": "leetcode/search-insert-position",
+        "title": "Search Insert Position",
+        "collection": "leetcode",
+        "languages": [
+          "Dart"
+        ],
+        "solution_files": 1,
+        "path": "leetcode/search-insert-position/dart/solution1/solution.dart",
+        "updated": {
+          "commit": "ed422c5dc7b8301380033f0cbab3242bafbd61c8",
+          "date": "2026-11-13T15:13:31-03:00"
+        }
+      },
+      {
+        "key": "leetcode/rotate-array",
+        "title": "Rotate Array",
+        "collection": "leetcode",
+        "languages": [
+          "Dart"
+        ],
+        "solution_files": 1,
+        "path": "leetcode/rotate-array/dart/solution1/solution.dart",
+        "updated": {
+          "commit": "087cc5965984873a9977686155e1782611c908c0",
+          "date": "2025-10-14T05:08:34-03:00"
+        }
+      },
+      {
+        "key": "leetcode/roman-to-integer",
+        "title": "Roman To Integer",
+        "collection": "leetcode",
+        "languages": [
+          "Dart"
+        ],
+        "solution_files": 1,
+        "path": "leetcode/roman-to-integer/dart/solution1/solution.dart",
+        "updated": {
+          "commit": "c2aec095f045cb54459814dfa70b6c561a83ee69",
+          "date": "2025-10-11T14:01:00-03:00"
+        }
+      },
+      {
+        "key": "leetcode/max-difference-you-can-get-from-changing-an-integer",
+        "title": "Max Difference You Can Get From Changing An Integer",
+        "collection": "leetcode",
+        "languages": [
+          "Dart",
+          "Kotlin",
+          "Python"
+        ],
+        "solution_files": 4,
+        "path": "leetcode/max-difference-you-can-get-from-changing-an-integer/dart/solution1/solution.dart",
+        "updated": {
+          "commit": "59e7a460919de6b3dd19da29aec6206ce54b225c",
+          "date": "2025-10-09T01:41:29-03:00"
+        }
+      },
+      {
+        "key": "leetcode/integer-to-roman",
+        "title": "Integer To Roman",
+        "collection": "leetcode",
+        "languages": [
+          "Dart"
+        ],
+        "solution_files": 3,
+        "path": "leetcode/integer-to-roman/dart/solution1/solution.dart",
+        "updated": {
+          "commit": "35cf16030904c37c342fcb3ac58e69aca19a4902",
+          "date": "2025-10-08T02:45:49-03:00"
+        }
+      },
+      {
+        "key": "leetcode/best-time-to-buy-and-sell-stock",
+        "title": "Best Time To Buy And Sell Stock",
+        "collection": "leetcode",
+        "languages": [
+          "Dart"
+        ],
+        "solution_files": 1,
+        "path": "leetcode/best-time-to-buy-and-sell-stock/dart/solution1/solution.dart",
+        "updated": {
+          "commit": "ad47b1b3a825ba4814acc29fbce5caa13d2f6c8f",
+          "date": "2025-10-07T16:23:19-03:00"
+        }
+      },
+      {
+        "key": "leetcode/palindrome-number",
+        "title": "Palindrome Number",
+        "collection": "leetcode",
+        "languages": [
+          "Dart",
+          "Kotlin"
+        ],
+        "solution_files": 2,
+        "path": "leetcode/palindrome-number/dart/solution1/solution.dart",
+        "updated": {
+          "commit": "035837986d251f23f343b7d36147c0acdda450e1",
+          "date": "2025-10-07T15:25:22-03:00"
+        }
+      },
+      {
+        "key": "leetcode/string-to-integer-atoi",
+        "title": "String To Integer Atoi",
+        "collection": "leetcode",
+        "languages": [
+          "Dart"
+        ],
+        "solution_files": 1,
+        "path": "leetcode/string-to-integer-atoi/dart/solution1/solution.dart",
+        "updated": {
+          "commit": "21d38f8a984c0f130fbef037cbf33ccccd196107",
+          "date": "2025-10-07T02:46:49-03:00"
+        }
+      },
+      {
+        "key": "leetcode/reverse-integer",
+        "title": "Reverse Integer",
+        "collection": "leetcode",
+        "languages": [
+          "Dart",
+          "Kotlin"
+        ],
+        "solution_files": 3,
+        "path": "leetcode/reverse-integer/dart/solution1/solution.dart",
+        "updated": {
+          "commit": "082fd7530a95a4aff86529e8bc6fd2a71ff0a0fd",
+          "date": "2025-10-07T01:19:32-03:00"
+        }
+      },
+      {
+        "key": "leetcode/remove-element",
+        "title": "Remove Element",
+        "collection": "leetcode",
+        "languages": [
+          "Dart"
+        ],
+        "solution_files": 1,
+        "path": "leetcode/remove-element/dart/solution1/solution.dart",
+        "updated": {
+          "commit": "4da3ae7de9fb9f79be3d76aa32e5d646713e5b2b",
+          "date": "2025-10-06T12:38:51-03:00"
+        }
+      }
+    ]
+  }
+}

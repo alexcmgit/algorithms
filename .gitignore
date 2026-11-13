@@ -4,3 +4,4 @@ analysis_options.yaml
 pubspec.lock
 .dart_tool
 .vscode
+__pycache__/
